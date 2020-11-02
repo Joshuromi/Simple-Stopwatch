@@ -1,0 +1,189 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(90deg, #e9defa 0%, #fbfcdb 100%);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table {
+    margin: auto;
+    width: fit-content;
+    color: #000;
+}
+
+caption {
+    margin-bottom: 30px;
+
+}
+
+th {
+    font-size: 1em;
+    color: #ff8c00;
+}
+
+td {
+    font-size: 4em;
+    text-align: center;
+    
+}
+
+button {
+    background: transparent;
+    width: 80px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+
+}
+
+button:focus {
+    color: #ff8c00;
+    outline: none;
+}
+
+button:active {
+   box-shadow: 0 0 3px .5px #ff8c00;
+}
+
+#reset:hover {
+    color: #ff0000;
+}
+
+#start:hover {
+    color: #009900;
+}
+
+#stop:hover {
+    color: #0000ff;
+}
+
+#lap:hover {
+    color: #ff8c00;
+}
+
+.disabled {
+    pointer-events: none;
+    text-decoration: line-through;
+}
+
+.container {
+    margin: 3% auto;
+    max-width: 750px;
+}
+
+.clock-body {
+    background-color: #fff;
+    padding: 50px;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.30), 0 10px 10px rgba(0,0,0,0.22) ;
+}
+
+.clock-body hr {
+    margin: 20px;
+    height: 1px;
+    background-color: #ff8c00;
+    border: none;
+}
+
+.lap-body {
+    display: none;
+    background-color: #fff;
+    padding: 40px;
+    width: 75%;
+    margin: 2em auto;
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.30), 0 10px 10px rgba(0,0,0,0.22) ;
+}
+
+.lap-body p {
+    font-size: 2em;
+    text-align: center;
+}
+
+.lap-body hr {
+    margin: 10px auto;
+    width: 70%;
+    height: 1px;
+    background-color: #ff8c00;
+    border: none;
+}
+
+.lap-body ol {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.lap-body li {
+    padding: 5px;
+}
+
+
+.separator {
+    color: #ff8c00;
+    font-size: 30px;
+}
+
+@media(max-width: 600px) {
+    th {
+        font-size: .8em;
+    }
+    
+    td {
+        font-size: 2.8em;
+    }
+
+    button {
+        font-size: 120%;
+        width: 50px;
+        padding: 5px;
+        margin: 3px;
+        border-radius: 3px;
+    }
+
+    caption {
+        margin-bottom: 20px;
+        font-size: .9em;
+    } 
+
+    .clock-body {
+        padding: 20px 0px;
+        max-width: 400px;  
+    }
+
+    .clock-body hr {
+        margin: 10px;
+    }
+
+    .separator {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 300px) {
+    .container {
+        margin-top: 0;
+    }
+
+    .clock-body {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .lap-body {
+        width: 100%;
+        border-radius: 0;
+        margin-top: 1em;
+    }
+}
+
+
