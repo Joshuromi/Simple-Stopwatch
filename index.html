@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Stopwatch App</title>
+        <meta charset="utf-8">
+        <meta name="description" content="A simple stopwatch web application">
+        <meta name="keywords" content="stopwatch, html, css, javascript">
+        <meta name="author" content="Joshua Ojuromi">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="clock-body">
+                <table>
+                    <caption>stopwatch v2.0</caption>
+                    <thead>
+                        <tr>
+                            <th>hr</th>
+                            <th></th>
+                            <th>min</th>
+                            <th></th>
+                            <th>sec</th>
+                            <th></th>
+                            <th>m.sec</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="hours">00</td>
+                            <td class="separator">:</td>
+                            <td id="minutes">00</td>
+                            <td class="separator">:</td>
+                            <td id="seconds">00</td>
+                            <td class="separator">:</td>
+                            <td id="mseconds">00</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr ><th colspan="7"><hr></th></tr>
+                        <tr>
+                            <th><button id="start">Start</button></th>
+                            <th></th>
+                            <th><button id="lap">Lap</button></th>
+                            <th></th>
+                            <th><button id="stop">Stop</button></th>
+                            <th></th>
+                            <th><button id="reset">Reset</button></th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="lap-body">
+                <p id="lap-time"></p><hr>
+                <ol id="display-lap"></ol>
+            </div>
+        </div>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
