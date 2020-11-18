@@ -5,18 +5,18 @@ A simple stopwatch app for the Bulb Africa fellowship curriculum
 
 ## Description
 
-1. Simple and responsive.
-2. Beautiful material theme.
-3. Includes time lapping features.
+* Simple and responsive.
+* Beautiful material theme.
+* Includes time lapping features.
 
 ## Installation
 
-Use a javascript supported browser and make sure javascript is enabled on your web browser.
+> Use a javascript supported browser and make sure javascript is enabled on your web browser.
 Visit [https://joshuromi.github.io/Simple-Stopwatch/](https://joshuromi.github.io/Simple-Stopwatch/)
 
 ### Requirements
-1. Javascript.
-2. Modern web browser.
+* Javascript.
+* Modern web browser.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
